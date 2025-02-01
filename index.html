@@ -8,23 +8,23 @@
     <script src="https://kit.fontawesome.com/34ac7f4441.js" crossorigin="anonymous"></script>
    
 </head>
-<body class="bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3] m-auto">
+<body class="max-w-screen-2xl mx-auto">
    
-   <header class="border-b-2 border-green-600 lg:border-none px-10">
-    <!-- <div class="relative lg:hidden">
-        <i class="fa-solid fa-leaf"></i>
-        <i class="fa-solid fa-leaf absolute"></i>
-    </div> -->
-    <div  class="flex justify-between items-center my-3">
+   <header class="md:px-5 md:pt-5 w-full bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3]">
+ 
+    <div class=" border-b-2 border-green-600 lg:border-none flex justify-between items-center my-3">
         <!-- image-logo -->
-        <div class="ml-5">
+         <div class="md:hidden">
+            <img src="assets/logo2.png" alt="">
+         </div>
+        <div class="hidden md:flex">
             <img src="assets/logo-header.png" alt="">
         </div>
          <!-- navbar+button+cart -->
-        <div class="hidden lg:flex md:items-center lg:space-x-20">
+        <div class="hidden md:flex md:items-center space-x-20">
             <!-- navlink -->
             <div>
-                <ul class="flex space-x-5">
+                <ul class="flex space-x-5 text-xl">
                     <li>Product</li>
                     <li>Services</li>
                     <li>Contact us</li>
@@ -46,68 +46,102 @@
             <i class="fa-solid fa-bars text-green-700"></i>
          </div>
     </div>
-   </header>
-
-   <main class="mb-44">
-    <section class="space-y-5 mt-40 mb-20 m-auto">
+    <section class="space-y-2 mt-20 m-auto bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3]">
         <h1 class=" font-bold text-4xl text-center">Freshness <span class="text-green-700">You can</span><br>
             <span class="text-green-700">Count </span>On, Prices You’ll Love!</h1>
         <p class="text-center text-lg">Shop your daily essentials at unbeatable prices. From fresh produce to pantry,<br> staples, we’ve got you covered every day!</p>
         <img class="flex justify-center items-center m-auto" src="assets/hero-vegetables.png" alt="">
 
     </section>
-    <section class="bg-white px-10 py-10">
+   </header>
+
+   <main>
+   
+    <section class="bg-white md:w-full px-2 py-12 md:px-5 md:py-32">
            <h1 class="font-bold text-4xl text-green-700 mb-10">Services</h1>
-           <div class="grid grid-cols-3 gap-5 m-auto">
-            <div class="flex flex-col justify-center items-center space-y-5 bg-gray-300 rounded-lg drop-shadow-lg py-10">
+           <div class="grid md:grid-cols-3 gap-5 m-auto">
+            <div class="flex flex-col justify-center items-center space-y-2 pt-2 bg-[#EFEBE3] rounded-lg drop-shadow-lg">
                 <div class="rounded-full bg-white"><img class="p-3 rounded-full" src="assets/service.png" alt=""></div>
                 <h3 class="font-bold text-2xl">24/7 Services </h3>
-                <p class="text-gray-400 text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing<br> Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                <p class="text-gray-400 text-lg text-center p-3">customers can receive support from our company at any time of the day or night to solve a problem.</p>
             </div>
-            <div class="flex flex-col justify-center items-center space-y-5 rounded-lg drop-shadow-lg bg-gray-300 py-10">
+            <div class="flex flex-col justify-center items-center space-y-2 pt-2 rounded-lg drop-shadow-lg bg-[#EFEBE3]">
                 <div class="rounded-full bg-white"><img class="p-3 rounded-full" src="assets/delivery.png" alt=""></div>
                 <h3 class="font-bold text-2xl">Fast Delivery</h3>
-                <p class="text-gray-400 text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing<br> Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                <p class="text-gray-400 text-lg text-center p-3">Our fast delivery service ensures you receive your order as soon as possible, no matter what you ordered from this.</p>
             </div>
-            <div class="flex flex-col justify-center items-center space-y-5 rounded-lg drop-shadow-lg bg-gray-300 py-10">
+            <div class="flex flex-col justify-center items-center space-y-2 pt-2 rounded-lg drop-shadow-lg bg-[#EFEBE3]">
                 <div class="rounded-full bg-white"><img class="p-3 rounded-full" src="assets/healthy.png" alt=""></div>
                 <h3 class="font-bold text-2xl">Healthy Products</h3>
-                <p class="text-gray-400 text-lg text-center">Lorem ipsum dolor sit amet consectetur adipisicing<br> Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                <p class="text-gray-400 text-lg text-center p-3">We always try to maintain high-quality, healthy foods to support a healthy lifestyle. Fast delivery guaranteed!</p>
             </div>
             
            </div>
     </section>
-    <section class="px-10 py-10 bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3]">
+
+
+    <section class="bg-[#EFEBE3] w-full px-2 py-10 md:px-5 md:py-28">
         <h1 class="font-bold text-4xl text-green-700 mb-10">Popular Products</h1>
-        <div class="grid grid-cols-3 gap-10">
-        <div class="relative bg-gradient-to-r from-green-400 to-green-200 p-6 rounded-lg shadow-lg space-y-7 overflow-hidden">
-            <h2 class="font-bold text-3xl text-green-800">30% off</h2>
-            <p class="mt-2">Discover a world of treats, toys, and essentials handpicked for</p>
-            <button class="mt-4 bg-white text-black font-semibold px-5 py-2 rounded shadow hover:bg-gray-100">Buy Now</button>
-            <img class="absolute right-0 bottom-0 top-5 object-contain" src="assets/vegetable-offer.png" alt="Vegetable Offer">
-        </div>
-        <div class="col-span-2">
-            <div class="grid grid-cols-3 gap-3">
-         
-                <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                    <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                        <img class="w-19 h-17" src="assets/a1.png" alt="">
-                    </div>
-                    <div>
-                        <div class="flex gap-2">
-                            <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                            <p>4.5</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10">
+            <div class="relative col-span-2 md:col-span-1 bg-gradient-to-r from-green-400 to-green-200 rounded-lg shadow-lg overflow-hidden">
+                <h2 class="m-2 font-bold text-3xl text-green-800">30% off</h2>
+                <p class="m-2 mt-2">Discover a world of treats, toys, and essentials handpicked for</p>
+                <button class=" m-2 mt-4 bg-white text-black font-semibold px-5 py-2 rounded shadow-lg">Buy Now</button>
+                <img class="absolute right-0 bottom-0 w-1/5 md:w-2/5 object-right-bottom" src="assets/vegetable-offer.png" alt="Vegetable Offer">
+            </div>
+            <div class="col-span-2">
+                <div class="grid grid-cols-3 gap-3">
+             
+                    <div class="flex bg-white rounded-lg p-2 gap-2">
+                        <div class="bg-gray-200 rounded-lg flex justify-center items-center w-2/5">
+                            <img class="w-17 h-17" src="assets/a1.png" alt="">
                         </div>
-                        <p>ONION 1kg</p>
-                        <p>$39.99</p>
+                        <div>
+                            <div class="flex gap-2">
+                                <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                <p>4.5</p>
+                            </div>
+                            <p class="text-sm">ONION 1kg</p>
+                            <p>$39.99</p>
+                        </div>
+                      
                     </div>
-                  
-                </div>
-                <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                    <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                        <img class="w-19 h-17" src="assets/a2.png" alt="">
+                    <div class="flex bg-white rounded-lg items-center p-3 gap-5">
+                        <div class="bg-gray-200 rounded-lg flex justify-center items-center">
+                            <img class="w-19 h-17" src="assets/a2.png" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <div class="flex gap-2">
+                                    <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <p>ONION 1kg</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                      
                     </div>
-                    <div>
+                    <div class="flex bg-white rounded-lg items-center p-3 gap-5">
+                        <div class="bg-gray-200 rounded-lg flex justify-center items-center">
+                            <img class="w-19 h-17" src="assets/a3.png" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <div class="flex gap-2">
+                                    <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <p>ONION 1kg</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    <div class="flex bg-white rounded-lg items-center p-3 gap-5">
+                        <div class="bg-gray-200 rounded-lg flex justify-center items-center">
+                            <img class="w-19 h-17" src="assets/a1.png" alt="">
+                        </div>
                         <div>
                             <div class="flex gap-2">
                                 <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
@@ -116,14 +150,44 @@
                             <p>ONION 1kg</p>
                             <p>$39.99</p>
                         </div>
+                      
                     </div>
-                  
-                </div>
-                <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                    <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                        <img class="w-19 h-17" src="assets/a3.png" alt="">
+                    <div class="flex bg-white rounded-lg items-center p-3 gap-5">
+                        <div class="bg-gray-200 rounded-lg flex justify-center items-center">
+                            <img class="w-19 h-17" src="assets/a2.png" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <div class="flex gap-2">
+                                    <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <p>ONION 1kg</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                      
                     </div>
-                    <div>
+                    <div class="flex bg-white rounded-lg items-center p-3 gap-5">
+                        <div class="bg-gray-200 rounded-lg flex justify-center items-center">
+                            <img class="w-19 h-17" src="assets/a3.png" alt="">
+                        </div>
+                        <div>
+                            <div>
+                                <div class="flex gap-2">
+                                    <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <p>ONION 1kg</p>
+                                <p>$39.99</p>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    <div class="flex bg-white rounded-lg items-center p-3 gap-5">
+                        <div class="bg-gray-200 rounded-lg flex justify-center items-center">
+                            <img class="w-19 h-17" src="assets/a1.png" alt="">
+                        </div>
                         <div>
                             <div class="flex gap-2">
                                 <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
@@ -132,120 +196,59 @@
                             <p>ONION 1kg</p>
                             <p>$39.99</p>
                         </div>
+                      
                     </div>
-                  
-                </div>
-                <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                    <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                        <img class="w-19 h-17" src="assets/a1.png" alt="">
-                    </div>
-                    <div>
-                        <div class="flex gap-2">
-                            <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                            <p>4.5</p>
+                    <div class="flex bg-white rounded-lg items-center p-3 gap-5">
+                        <div class="bg-gray-200 rounded-lg flex justify-center items-center">
+                            <img class="w-19 h-17" src="assets/a2.png" alt="">
                         </div>
-                        <p>ONION 1kg</p>
-                        <p>$39.99</p>
-                    </div>
-                  
-                </div>
-                <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                    <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                        <img class="w-19 h-17" src="assets/a2.png" alt="">
-                    </div>
-                    <div>
                         <div>
-                            <div class="flex gap-2">
-                                <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                                <p>4.5</p>
+                            <div>
+                                <div class="flex gap-2">
+                                    <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <p>ONION 1kg</p>
+                                <p>$39.99</p>
                             </div>
-                            <p>ONION 1kg</p>
-                            <p>$39.99</p>
                         </div>
+                      
                     </div>
-                  
-                </div>
-                <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                    <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                        <img class="w-19 h-17" src="assets/a3.png" alt="">
-                    </div>
-                    <div>
+                    <div class="flex bg-white rounded-lg items-center p-3 gap-5">
+                        <div class="bg-gray-200 rounded-lg flex justify-center items-center">
+                            <img class="w-19 h-17" src="assets/a3.png" alt="">
+                        </div>
                         <div>
-                            <div class="flex gap-2">
-                                <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                                <p>4.5</p>
+                            <div>
+                                <div class="flex gap-2">
+                                    <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                    <p>4.5</p>
+                                </div>
+                                <p>ONION 1kg</p>
+                                <p>$39.99</p>
                             </div>
-                            <p>ONION 1kg</p>
-                            <p>$39.99</p>
                         </div>
+                      
                     </div>
-                  
-                </div>
-                <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                    <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                        <img class="w-19 h-17" src="assets/a1.png" alt="">
-                    </div>
-                    <div>
-                        <div class="flex gap-2">
-                            <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                            <p>4.5</p>
-                        </div>
-                        <p>ONION 1kg</p>
-                        <p>$39.99</p>
-                    </div>
-                  
-                </div>
-                <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                    <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                        <img class="w-19 h-17" src="assets/a2.png" alt="">
-                    </div>
-                    <div>
-                        <div>
-                            <div class="flex gap-2">
-                                <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                                <p>4.5</p>
-                            </div>
-                            <p>ONION 1kg</p>
-                            <p>$39.99</p>
-                        </div>
-                    </div>
-                  
-                </div>
-                <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                    <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                        <img class="w-19 h-17" src="assets/a3.png" alt="">
-                    </div>
-                    <div>
-                        <div>
-                            <div class="flex gap-2">
-                                <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                                <p>4.5</p>
-                            </div>
-                            <p>ONION 1kg</p>
-                            <p>$39.99</p>
-                        </div>
-                    </div>
-                  
-                </div>
-                
-        </div>
-       
-        
-
-       </div>
-     
-                
-       
-    </section>
+                    
+            </div>
+           
+            
     
+           </div>
+           </div>
+        
+ </section>
 
-    <section>
-        <h1 class="font-bold text-4xl text-green-700 mb-10 px-10">Arrival & Offers</h1>
-        <div class="grid grid-cols-2 gap-10 mx-10">
-            <div class="flex justify-center bg-green-900 rounded-lg space-x-20">
-                <div class="space-y-10 pt-5">
+
+
+    <section class="bg-white w-full px-2 py-5 md:px-5 md:py-20">
+        <h1 class="font-bold text-4xl text-green-700 pb-10">Arrival & Offers</h1>
+        <div class="grid grid-cols-4 md:grid-cols-5 gap-10">
+            <div class="flex justify-center bg-green-900 rounded-lg space-x-20 col-span-4 md:col-span-3">
+                <div class="space-y-4 pt-5 pl-5 pb-5">
                     <img src="assets/dawat.png" alt="">
-                    <button class="bg-green-400 rounded-lg text-white px-10 py-5 text-2xl">Cook Exotic Dishes</button>
+                    <button class="bg-green-400 rounded-lg text-white text-sm p-2 md:text-2xl">Cook Exotic Dishes</button>
                     <p class="font-bold text-4xl text-white">UP to 20% OFF</p>
                 </div>
                 <div class="pt-5">
@@ -253,10 +256,10 @@
                 </div>
     
             </div>
-            <div class="flex justify-center bg-blue-900 rounded-lg space-x-40">
-                <div class="space-y-4 pt-4">
+            <div class="flex justify-center bg-blue-900 rounded-lg col-span-4 md:col-span-2 gap-4">
+                <div class="pt-4 space-y-2">
                     <img src="assets/india-gate-logo.png" alt="">
-                    <button class="bg-blue-400 rounded-lg text-white px-10 py-5 text-2xl">World’s No.1 Rice</button>
+                    <button class="bg-blue-400 rounded-lg text-white text-sm p-2 md:text-2xl">World’s No.1 Rice</button>
                     <p class="font-bold text-4xl text-white">UP to 40% OFF</p>
                 </div>
                 <div class="pt-5">
@@ -288,11 +291,12 @@
         </div>
 
     </section>
-    <section class="mt-28">
-        <div class="w-full flex justify-evenly items-center pt-28">
-            <div class="space-y-5">
+
+    <section class="mt-28 pl-5">
+        <div class="w-full flex flex-col md:flex-row md:justify-evenly md:items-center pt-28">
+            <div class="space-y-5 md:w-1/3">
                 <img src="assets/logo-footer.png" alt="">
-                <p>Discover a world of treats, toys, and<br> essentials handpicked for your furry<br> friends</p>
+                <p>Eating natural food nourishes the body with essential nutrients, boosts immunity, enhances digestion, and promotes overall health and well-being.</p>
             </div>
             <div>
                 <ul class="flex flex-col space-y-7">
@@ -313,6 +317,7 @@
         </div>
 
     </section>
+    
     
    </footer>
  
