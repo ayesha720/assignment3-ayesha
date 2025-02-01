@@ -7,6 +7,21 @@
     <title>Assignment three</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/34ac7f4441.js" crossorigin="anonymous"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          },
+          fontFamily:{
+            sora:['Sora','serif']
+
+          }
+        }
+      }
+    }
+  </script>
 </head>
 <body>
        <!-- header +hero -->
@@ -96,7 +111,7 @@
 
       <!-- onion+potato -->
 
-     <div class="w-full bg-[#EFEBE3]">
+      <div class="w-full bg-[#EFEBE3]">
         <div class="container mx-auto">
             <section class="bg-[#EFEBE3] w-full px-2 py-10 md:px-5 md:py-28">
                 <h1 class="font-bold text-4xl text-green-700 mb-10">Popular Products</h1>
@@ -108,146 +123,141 @@
                         <img class="absolute right-0 bottom-0 w-1/5 md:w-2/5 object-right-bottom" src="assets/vegetable-offer.png" alt="Vegetable Offer">
                     </div>
                     <div class="col-span-2">
-                        <div class="grid grid-cols-3 gap-3">
+                        <div class="grid grid-cols-3 gap-2">
                      
                             <div class="flex bg-white rounded-lg p-2 gap-2">
-                                <div class="bg-gray-200 rounded-lg flex justify-center items-center w-2/5">
-                                    <img class="w-17 h-17" src="assets/a1.png" alt="">
+                                <div class="bg-gray-200 rounded-lg flex py-2">
+                                    <img class="w-full h-17" src="assets/a1.png" alt="">
                                 </div>
                                 <div>
                                     <div class="flex gap-2">
                                         <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
                                         <p>4.5</p>
                                     </div>
-                                    <p class="text-sm">ONION 1kg</p>
+                                    <p class="text-xs md:text-lg">Onion1kg</p>
                                     <p>$39.99</p>
                                 </div>
                               
                             </div>
-                            <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                                <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                                    <img class="w-19 h-17" src="assets/a2.png" alt="">
+
+                            <div class="flex bg-white rounded-lg p-2 gap-1 md:gap-2">
+                                <div class="bg-gray-200 rounded-lg flex py-1">
+                                    <img class="w-full h-17" src="assets/a2.png" alt="">
                                 </div>
                                 <div>
-                                    <div>
-                                        <div class="flex gap-2">
-                                            <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                                            <p>4.5</p>
-                                        </div>
-                                        <p>ONION 1kg</p>
-                                        <p>$39.99</p>
+                                    <div class="flex gap-1">
+                                        <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                        <p>3.5</p>
                                     </div>
+                                    <p class="text-xs md:text-lg">Tomato1kg</p>
+                                    <p>$20.99</p>
                                 </div>
                               
                             </div>
-                            <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                                <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                                    <img class="w-19 h-17" src="assets/a3.png" alt="">
+                         
+
+                            <div class="flex bg-white rounded-lg p-2 gap-2">
+                                <div class="bg-gray-200 rounded-lg flex py-2">
+                                    <img class="w-full h-17" src="assets/a3.png" alt="">
                                 </div>
                                 <div>
-                                    <div>
-                                        <div class="flex gap-2">
-                                            <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                                            <p>4.5</p>
-                                        </div>
-                                        <p>ONION 1kg</p>
-                                        <p>$39.99</p>
+                                    <div class="flex gap-2">
+                                        <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                        <p>4.4</p>
                                     </div>
+                                    <p class="text-xs md:text-lg">Potato1kg</p>
+                                    <p>$29.99</p>
                                 </div>
                               
                             </div>
-                            <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                                <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                                    <img class="w-19 h-17" src="assets/a1.png" alt="">
+                            <div class="flex bg-white rounded-lg p-2 gap-2">
+                                <div class="bg-gray-200 rounded-lg flex py-2">
+                                    <img class="w-full h-17" src="assets/a3.png" alt="">
+                                </div>
+                                <div>
+                                    <div class="flex gap-2">
+                                        <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                        <p>4.4</p>
+                                    </div>
+                                    <p class="text-xs md:text-lg">Potato1kg</p>
+                                    <p>$29.99</p>
+                                </div>
+                              
+                            </div>
+                            <div class="flex bg-white rounded-lg p-2 gap-2">
+                                <div class="bg-gray-200 rounded-lg flex py-2">
+                                    <img class="w-full h-17" src="assets/a1.png" alt="">
                                 </div>
                                 <div>
                                     <div class="flex gap-2">
                                         <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
                                         <p>4.5</p>
                                     </div>
-                                    <p>ONION 1kg</p>
+                                    <p class="text-xs md:text-lg">Onion1kg</p>
                                     <p>$39.99</p>
                                 </div>
                               
                             </div>
-                            <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                                <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                                    <img class="w-19 h-17" src="assets/a2.png" alt="">
+                            <div class="flex bg-white rounded-lg p-2 gap-1 md:gap-2">
+                                <div class="bg-gray-200 rounded-lg flex py-1">
+                                    <img class="w-full h-17" src="assets/a2.png" alt="">
                                 </div>
                                 <div>
-                                    <div>
-                                        <div class="flex gap-2">
-                                            <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                                            <p>4.5</p>
-                                        </div>
-                                        <p>ONION 1kg</p>
-                                        <p>$39.99</p>
+                                    <div class="flex gap-1">
+                                        <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                        <p>3.5</p>
                                     </div>
+                                    <p class="text-xs md:text-lg">Tomato1kg</p>
+                                    <p>$20.99</p>
                                 </div>
                               
                             </div>
-                            <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                                <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                                    <img class="w-19 h-17" src="assets/a3.png" alt="">
+                            <div class="flex bg-white rounded-lg p-2 gap-1 md:gap-2">
+                                <div class="bg-gray-200 rounded-lg flex py-1">
+                                    <img class="w-full h-17" src="assets/a2.png" alt="">
                                 </div>
                                 <div>
-                                    <div>
-                                        <div class="flex gap-2">
-                                            <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                                            <p>4.5</p>
-                                        </div>
-                                        <p>ONION 1kg</p>
-                                        <p>$39.99</p>
+                                    <div class="flex gap-1">
+                                        <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                        <p>3.5</p>
                                     </div>
+                                    <p class="text-xs md:text-lg">Tomato1kg</p>
+                                    <p>$20.99</p>
                                 </div>
                               
                             </div>
-                            <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                                <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                                    <img class="w-19 h-17" src="assets/a1.png" alt="">
+                            <div class="flex bg-white rounded-lg p-2 gap-2">
+                                <div class="bg-gray-200 rounded-lg flex py-2">
+                                    <img class="w-full h-17" src="assets/a1.png" alt="">
                                 </div>
                                 <div>
                                     <div class="flex gap-2">
                                         <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
                                         <p>4.5</p>
                                     </div>
-                                    <p>ONION 1kg</p>
+                                    <p class="text-xs md:text-lg">Onion1kg</p>
                                     <p>$39.99</p>
                                 </div>
                               
                             </div>
-                            <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                                <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                                    <img class="w-19 h-17" src="assets/a2.png" alt="">
+                            <div class="flex bg-white rounded-lg p-2 gap-2">
+                                <div class="bg-gray-200 rounded-lg flex py-2">
+                                    <img class="w-full h-17" src="assets/a3.png" alt="">
                                 </div>
                                 <div>
-                                    <div>
-                                        <div class="flex gap-2">
-                                            <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                                            <p>4.5</p>
-                                        </div>
-                                        <p>ONION 1kg</p>
-                                        <p>$39.99</p>
+                                    <div class="flex gap-2">
+                                        <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
+                                        <p>4.4</p>
                                     </div>
+                                    <p class="text-xs md:text-lg">Potato1kg</p>
+                                    <p>$29.99</p>
                                 </div>
                               
                             </div>
-                            <div class="flex bg-white rounded-lg items-center p-3 gap-5">
-                                <div class="bg-gray-200 rounded-lg flex justify-center items-center">
-                                    <img class="w-19 h-17" src="assets/a3.png" alt="">
-                                </div>
-                                <div>
-                                    <div>
-                                        <div class="flex gap-2">
-                                            <i class="fa-solid fa-star text-[#FFC107] font-bold"></i>
-                                            <p>4.5</p>
-                                        </div>
-                                        <p>ONION 1kg</p>
-                                        <p>$39.99</p>
-                                    </div>
-                                </div>
-                              
-                            </div>
+                         
+                         
+                         
+                         
                             
                     </div>
                    
@@ -260,6 +270,8 @@
 
         </div>
      </div>
+
+
 
 
      <!-- rice+salt -->
